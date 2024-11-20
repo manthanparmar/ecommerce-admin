@@ -26,7 +26,19 @@
                       @endif
                   </div>
                 </a>
-                
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item" href="{{ route('logout') }}">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-logout text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                    <p class="preview-subject mb-1"> Logout</p>
+                    </div>
+                  </a>
+                 
               </li>
             </ul>
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
